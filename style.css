@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Purple+Purse&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+body {
+  font-family: 'Purple Purse', cursive;
+  padding-top: 70px;
+  background-color: #eee;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #114f29;
+  font-family: 'Purple Purse', cursive;
+  color: white;
+  width: 100%;
+  z-index: 10;
+  margin-bottom: 50px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 2vw;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#main {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#main h1 {
+  font-size: 7vw;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+#main p {
+  padding-top: 10px;
+  margin: 0;
+  font-size: 3vw;
+}
+
+#img-div {
+  background-color: white;
+  padding: 15px;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+}
+
+#img-caption {
+  margin-top: 10px;
+  font-size: 2vw;
+}
+
+#tribute-info {
+  padding-top: 1rem;
+  width: 600px;
+  margin: 50px auto;
+}
+
+#tribute-info h3 {
+  text-align: center;
+  color: #114f29;
+  font-size: 2em;
+}
+
+#tribute-info p {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1em;
+}
+
+#Discography {
+  padding-top: 1rem;
+  text-align: center;
+  color: #114f29;
+  font-size: 2em;
+}
+
+#Discography ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#Discography li {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+}
+
+.album {
+  position: relative;
+}
+
+.album .album-img {
+  width: 100%;
+  height: 100%;
+}
+
+.album .album-overlay {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: #114f29;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.album .album-overlay:hover {
+  opacity: 1;
+}
+
+.release-date {
+  font-size: 0.5em;
+}
+
+.album-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 5px;
+  font-size: 0.6em;
+}
+.lead {
+  color: #114f29;
+}
+#Discography h3 {
+  font-size: 0.8em;
+  color: #000;
+}
+
+#videos {
+  padding-top: 1rem;
+  text-align: center;
+  color: #114f29;
+  font-size: 1em;
+}
+
+.video-list {
+  margin-top: 30px;
+}
+
+#follow {
+  text-align: center;
+  background-color: black;
+  padding: 5px 0;
+  color: white;
+}
+
+#follow h2 {
+  color: white;
+}
+
+#follow ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#follow li {
+  font-size: 2em;
+  margin: 0 10px;
+}
+
+#follow li a {
+  color: white;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
